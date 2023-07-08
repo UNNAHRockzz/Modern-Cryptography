@@ -1,0 +1,1 @@
+PRNG's are deterministic. That means that they will always generate the same stream of random numbers from the same input material (the "seed"). The SUN SHA1PRNG will however seed itself from entropy retrieved from the operating system when the random pool is first accessed. In that case the random values will be indistinguishable from a true random number generator.
